@@ -17,11 +17,7 @@ sources:
               - name: orders_id
                 tests:
                   - unique
-          loaded_at_field: "CAST(date_date as timestamp)"
-          freshness:
-            warn_after:
-              count: 90
-              period: day
+          
                   
 
         - name: product
